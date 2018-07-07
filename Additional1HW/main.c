@@ -70,7 +70,7 @@ exc_noargs:
 	printf("Error: no arguments provided\n");
 	goto exc_usage;
 exc_usage:
-	printf("Usage:\n <AmountOfArrays> <Base to pow f.e 3,4..> <file name>or <0||-1>to input one exact num \n");
+	printf("Usage:\n <AmountOfArrays> <Base to multiply f.e 3,4..> <file name>or <0||-1>to input one exact num \n");
 	return 1;
 one_element:
 	printf("Print the element to factorize :\n");
