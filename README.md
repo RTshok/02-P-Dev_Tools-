@@ -7,9 +7,9 @@
 - The plot built in *GNUPLOT*,on that graph we can practicaly see the complexity of insertion sort algorithm.(I used different flags to compile)
 - The complexity is O(N^2).
 
-##Additional1HW
+## Additional1HW
 - That folder has program which compute the smallest possible multipliers from the number.That algorithm called 'Prime Factorization'.
-- Input are *Amount of arrays to sort*, *The number which configure the size of elements in array* *Name of File*.
+- Input are *Amount of arrays to sort*, *The number which configure the size of elements in array* ,*Name of File*.
 - Output is the file with time, and amount of elements which was computed.
 - Also use *Makefile* to compile.
 - The plot built in *GNUPLOT*,on that graph we can practicaly see the complexity of prime factorization program.(I used different flags to compile)
