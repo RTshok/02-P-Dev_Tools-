@@ -30,15 +30,15 @@ int main(int argc, char *argv[])
 	char FileName[20];
 	int amount;
 
-	/* Parse arguments */
-	if (argc == 1) goto exc_noargs;
-	if (argc > 1) 
-	strcpy(FileName,argv[1]);
-	if(argc == 3){
-	 amount=atoi(argv[2]);
-	items= malloc(amount*sizeof(*items));
-	if(items == NULL)
-	goto exc_noargs;
+/* Parse arguments */
+if (argc == 1) goto exc_noargs;
+if (argc > 1) 
+strcpy(FileName,argv[1]);
+if(argc == 3){
+ amount=atoi(argv[2]);
+items= malloc(amount*sizeof(*items));
+if(items == NULL)
+goto exc_noargs;
 }
 	
 	if (argc > 4)
